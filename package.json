@@ -1,0 +1,22 @@
+{
+  "name": "bbg-pix-bridge",
+  "version": "1.0.0",
+  "description": "API para gerar PIX via BBG",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.19.0",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.78.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "puppeteer": "^24.27.0"
+  }
+}
